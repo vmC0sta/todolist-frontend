@@ -3,7 +3,7 @@ const taskElement = document.getElementById("taskElement");
 let quantityTasks = 0
 
 btnAddMore.addEventListener('click',()=>{
-    if(quantityTasks == 7){
+    if(quantityTasks > 4){
         btnAddMore.style.display = 'none'
         return console.log("parou")
     }
