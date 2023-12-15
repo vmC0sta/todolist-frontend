@@ -5,7 +5,7 @@ let quantityTasks = 0
 btnAddMore.addEventListener('click',()=>{
     if(quantityTasks > 3){
         btnAddMore.style.display = 'none'
-        return console.log("parou")
+        return;
     }
     const newTask = createTask();
     taskElement.insertAdjacentElement('beforebegin', newTask);
